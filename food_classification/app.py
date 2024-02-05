@@ -5,7 +5,7 @@ import numpy as np
 from PIL import Image
 from tensorflow.keras.models import model_from_json
 
-# Load a pre-trained ResNet50 model
+# Load a pre-trained VGG-16 model
 
 # load YAML and create model
 json_file = open('model.json', 'r')
