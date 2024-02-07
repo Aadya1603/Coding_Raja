@@ -1,3 +1,18 @@
+'''
+This food classification project is a commendable effort, considering the constraints on computational power. Limiting the classes to six ("chicken_curry," "chicken_wings," "french_fries,"
+"Ice_Cream," "Pizza," and "samosa") demonstrates a practical approach to model training and deployment. While a larger dataset with 101 classes could potentially enhance the model's accuracy and versatility,
+the decision to prioritize efficiency and feasibility is understandable.
+
+For those seeking to expand the model's capabilities, the option to train it on the broader dataset of 101 food items provides an avenue for further exploration. 
+This modular approach allows for scalability based on available resources and project requirements. Overall, this project showcases adaptability and resourcefulness in the face of computational limitations,
+while still striving for effective food classification.
+
+Link to data set = link(https://www.kaggle.com/datasets/kmader/food41?resource=download)
+'''
+
+
+
+
 import streamlit as st
 from tensorflow.keras.applications.vgg16 import preprocess_input, decode_predictions
 from keras.preprocessing import image
@@ -79,3 +94,7 @@ if uploaded_file is not None:
 
     except Exception as e:
         st.write("Error during classification:", str(e))
+
+
+
+##
