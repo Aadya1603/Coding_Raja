@@ -7,7 +7,7 @@ For those seeking to expand the model's capabilities, the option to train it on 
 This modular approach allows for scalability based on available resources and project requirements. Overall, this project showcases adaptability and resourcefulness in the face of computational limitations,
 while still striving for effective food classification.
 
-Link to data set = link(https://www.kaggle.com/datasets/kmader/food41?resource=download)
+Link to data set = " https://www.kaggle.com/datasets/kmader/food41?resource=download "
 '''
 
 
